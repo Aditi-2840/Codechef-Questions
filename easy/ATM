@@ -1,0 +1,24 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+	// your code goes here
+	int x;
+	double y,finalbal;
+	cin>>x>>y;
+	if(x%5==0){
+	    if((x+0.5)<=y){
+	        finalbal=y-x-(0.5);
+	        cout<<finalbal;
+	    }
+	    else{
+	        cout<<y;
+	    }
+	}
+	else{
+	    cout<<y;
+	}
+	
+	return 0;
+}
